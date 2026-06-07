@@ -450,4 +450,4 @@ class MainActivity : AppCompatActivity() {
     if(key.isNotBlank()) ItachiService.apiKey = key
     val i = Intent(this, ItachiService::class.java).apply { putExtra("api_key",key) }
     startForegroundService(i)
-    btnActivate.text = "DEACTIVAT                         
+    btnActivate.text = "DEACTIVAT
